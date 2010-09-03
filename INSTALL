@@ -1,0 +1,17 @@
+INSTALL,v 0.0.1 2006/02/12 22:16:00 ddrp Exp $
+
+In order to install dlscripts, you will need Perl.
+This is sensible as the majority of the scripts therein are written in
+Perl anyway!  Just type:
+
+./install.sh
+
+If you want to choose where the scripts will be installed yourself,
+type
+
+./install.sh -i
+
+which will pause to ask you questions during the installation.
+
+-- David Duncan Ross Palmer, Daybo Logic
+http://www.daybologic.co.uk/mailddrp/

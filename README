@@ -1,0 +1,30 @@
+README,v 0.1.3 2006/02/28 15:05:00 ddrp Exp $
+
+Welcome to dlscripts-0.3.0
+
+After moving several scripts and libraries out of the OverChat
+source tree during 2004-2005, I knew that all scripts would one day
+have to be released as a separate package, required by all libraries.
+Finally, on August 30th 2005, this package was released.
+
+Documentation, aside from inside the scripts themselves, does not
+exist and has not been released.  This package is for other libraries
+and tools which may require it, it is not a user package in it's own
+right.  I call these my supplementary scripts.
+
+Old programs, released before March 2006, expect to find this package
+in weird and non-standard locations.  If you start getting compile
+errors with packages looking for ../../shared/c99.h/ or ../c99.h/,
+either 1) get an older version of dlscripts and try to make it work.
+2) Update the package causing the problem.
+
+The standard location for script installation is under
+%CommonProgramFile%\Daybo Logic\scripts under Windows NT
+and
+/usr/local/share/daybo_logic/scripts/ under UNIX.
+
+NB. You will need Perl to use the automated installation!
+Note also to read INSTALL.
+
+ -- David Duncan Ross Palmer, 12th February 2006.
+    <http://www.daybologic.co.uk/mailddrp/>
