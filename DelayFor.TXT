@@ -1,0 +1,21 @@
+DelayFor
+--------
+Suspends batch execution
+
+From inside a batch file the programmer has no time delay pause,
+to correct this make sure this program is on the path and use as
+follows:
+
+DELAYFOR <milliseconds>
+
+milliseconds are 1/1000 / sec, therefore to delay for 2.5 seconds
+calculate 2.5 * 1000 and use the following:
+
+DELAYFOR 2500
+
+The interval that follows is not interruptable, the user cannot
+press a key to cut-short the waiting time.  Don't over do it
+because the user will resent you and don't use a value greater
+than 65,535 because it will over-run eg. 65,357 = 2.
+
+So 65.535 secs is the maximum waiting time.
