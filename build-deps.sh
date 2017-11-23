@@ -1,4 +1,4 @@
-#!/bin/env sh
+#!/usr/bin/env sh
 #
 # Copyright (C) 2017 Daybo Logic.
 # All rights reserved.

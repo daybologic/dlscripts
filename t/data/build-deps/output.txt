@@ -1,0 +1,1 @@
+  libmoose-perl libreadonly-perl liblist-moreutils-perl libtest-deep-perl libtest-exception-perl libtest-mockmodule-perl libtest-output-perl
