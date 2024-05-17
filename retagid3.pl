@@ -15,7 +15,7 @@
 # my tag data, some information may be inaccurate.  Garbage in, garbage out.
 # ... and with that... good luck >=)
 #
-# Written by Palmer of Gradwell.com Ltd
+# Written by Palmer <2e0eol@gmail.com>
 #
 
 use MP3::Tag;
